@@ -6,12 +6,12 @@ GO
 
 CREATE TABLE Books (
 	BookID INT PRIMARY KEY IDENTITY(1,1),
-	Title VARCHAR(30) NOT NULL,
-	Author VARCHAR(30) NOT NULL,
+	Title VARCHAR(100) NOT NULL,
+	Author VARCHAR(50) NOT NULL,
 	ISBN VARCHAR(20) NOT NULL UNIQUE,
 	Published_Date DATE NOT NULL,
-	Genre VARCHAR(20) NOT NULL,
-	Shelf_Location VARCHAR(20) NOT NULL,
+	Genre VARCHAR(100) NOT NULL,
+	Shelf_Location VARCHAR(50) NOT NULL,
 	Current_Status VARCHAR(10) CHECK (Current_Status IN ('Available', 'Borrowed')) NOT NULL
 );
 GO
