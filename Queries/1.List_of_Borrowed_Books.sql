@@ -1,4 +1,4 @@
-declare @BorrowerID int =1;
+declare @BorrowerID int = 1;
 
 select 
     b.BookId, 
@@ -10,5 +10,5 @@ select
     b.Shelf_Location,
     l.Date_Borrowed
 from Books b
-join loans l on b.BookID=l.BookID
-where l.BookID=@BorrowerID;
+join loans l on b.BookID = l.BookID
+where l.BookID = @BorrowerID;
