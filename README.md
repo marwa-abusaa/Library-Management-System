@@ -10,9 +10,11 @@ The goal of this project is to design and implement a relational database using 
 - **Complex Queries & Stored Procedures**: Create queries for analyzing borrowing trends, popular genres, overdue fees, and more. Stored procedures automate tasks like adding borrowers, calculating overdue fees, and generating reports.
 - **Triggers & Automation**: Implement triggers to log status changes for books and automate actions such as overdue fee calculations and borrowing reports.
 - **Weekly Peak Days Analysis**: Analyze and identify the most popular days for book loans based on historical data.
+- **Indexing for Performance**: Implemented multiple indexes to optimize search and retrieval of data, particularly for commonly queried fields such as BookID, BorrowerID, and Date Borrowed.
 
 ## ERD Diagram:
 The Entity Relationship (ER) Diagram provides a visual representation of the database schema, including entities, attributes, and relationships.
+
 ![ERD Diagram](https://github.com/marwa-abusaa/Library-Management-System/blob/schema/Library%20Management%20System%20ERD.png)
 
 ## Database Schema:
