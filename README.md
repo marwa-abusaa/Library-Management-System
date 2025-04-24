@@ -13,7 +13,7 @@ The goal of this project is to design and implement a relational database using 
 
 ## ERD Diagram:
 The Entity Relationship (ER) Diagram provides a visual representation of the database schema, including entities, attributes, and relationships.
-![ERD Diagram](Library Management System ERD.png)
+![ERD Diagram]([Library Management System ERD.png](https://github.com/marwa-abusaa/Library-Management-System/blob/schema/Library%20Management%20System%20ERD.png))
 
 ## Database Schema:
 - **Books**: BookID (PK), Title, Author, ISBN, Published Date, Genre, Shelf Location, Current Status.
