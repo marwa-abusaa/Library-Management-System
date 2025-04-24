@@ -24,6 +24,6 @@ The Entity Relationship (ER) Diagram provides a visual representation of the dat
 
 ## Technologies:
 - Microsoft SQL Server
-- TSQL Queries
+- T-SQL Queries
 
 
