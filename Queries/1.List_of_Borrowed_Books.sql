@@ -1,3 +1,5 @@
+--Retrieve all books borrowed by a specific borrower, including those currently unreturned.
+
 declare @BorrowerID int = 1;
 
 select 

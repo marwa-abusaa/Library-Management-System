@@ -1,3 +1,7 @@
+--Trigger Implementation
+/*Design a trigger to log an entry into a separate AuditLog table whenever a book's status changes from 'Available' to 'Borrowed' or vice versa. 
+The AuditLog should capture BookID, StatusChange, and ChangeDate.*/
+
 CREATE TRIGGER trg_BookStatusChange
 ON Books
 AFTER UPDATE

@@ -1,3 +1,5 @@
+--Popular Genre Analysis using Joins and Window Functions: Identify the most popular genre for a given month.
+
 DECLARE @Month INT = 11;
 
 WITH GenreRanking AS (

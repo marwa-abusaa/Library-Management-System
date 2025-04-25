@@ -1,3 +1,6 @@
+/*Design a stored procedure that retrieves all borrowers who have overdue books. Store these borrowers in a temporary table,
+then join this temp table with the Loans table to list out the specific overdue books for each borrower.*/
+
 DROP PROCEDURE IF EXISTS sp_BborrowersWithOverdueBooks;
 GO
 

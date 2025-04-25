@@ -1,3 +1,5 @@
+--Borrowing Frequency using Window Functions: Rank borrowers based on borrowing frequency.
+
 WITH BorrowingFrequencies AS (
 	select b.BorrowerID, b.First_Name, b.Last_Name, COUNT(*) AS BooksCount
 	from Borrowers b

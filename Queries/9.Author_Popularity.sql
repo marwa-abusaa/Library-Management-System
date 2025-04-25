@@ -1,3 +1,5 @@
+--Author Popularity using Aggregation: Rank authors by the borrowing frequency of their books. 
+
 WITH AuthorBorrowingFrequency AS (
 select b.Author, Count(*) AS [Book Borrowing Frequency]
 from Loans l 

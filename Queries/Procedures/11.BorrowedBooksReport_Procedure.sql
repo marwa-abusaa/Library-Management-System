@@ -1,3 +1,5 @@
+--Stored Procedure - Borrowed Books Report: Retrieve all books borrowed within the given range, with details like borrower name and borrowing date.
+
 DROP PROCEDURE IF EXISTS sp_BorrowedBooksReport;
 GO
 

@@ -1,3 +1,5 @@
+--Determine the preferred genre of different age groups of borrowers. (Groups are (0,10), (11,20), (21,30)…).
+
 with BorrowerAgeGroups as (
     select 
 	l.BookID,

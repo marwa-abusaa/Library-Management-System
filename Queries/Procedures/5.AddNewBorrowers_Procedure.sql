@@ -1,3 +1,5 @@
+--Stored Procedure - Add New Borrowers: Check if an email exists; if not, add to Borrowers. If existing, return an error message.
+
 DROP PROCEDURE IF EXISTS sp_AddNewBorrower;
 GO
 

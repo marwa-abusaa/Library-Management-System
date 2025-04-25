@@ -1,3 +1,5 @@
+--Identify borrowers who've borrowed 2 or more books but haven't returned any using CTEs.
+
 WITH ActiveBorrowersWithoutReturns AS (
 	select b.BorrowerID, b.First_Name, b.Last_Name, COUNT(*) AS BorrowerdBooks
 	from Borrowers b

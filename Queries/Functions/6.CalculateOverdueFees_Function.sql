@@ -1,3 +1,5 @@
+--Database Function - Calculate Overdue Fees: Compute overdue fees for a given loan, charge fees based on overdue days: $1/day for up to 30 days, $2/day after.
+
 CREATE FUNCTION fn_CalculateOverdueFees(@LoanID INT)
 returns INT AS
 BEGIN
