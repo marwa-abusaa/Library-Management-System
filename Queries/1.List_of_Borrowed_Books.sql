@@ -13,4 +13,5 @@ select
     l.Date_Borrowed
 from Books b
 join loans l on b.BookID = l.BookID
-where l.BookID = @BorrowerID;
+WHERE l.BorrowerID = @BorrowerID
+AND (l.Date_Returned IS NULL OR l.Date_Returned <= GETDATE());
